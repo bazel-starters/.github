@@ -1,5 +1,3 @@
-## Bazel Starter Templates
-
 # 🧱 Bazel Starters
 
 Welcome to **bazel-starters** — a collection of ready-to-go, language-specific starter repos for getting productive with [Bazel](https://bazel.build) fast.
