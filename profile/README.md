@@ -23,7 +23,7 @@ Each starter repo includes:
 - ✅ **Pre-commit hooks** for automatic linting and formatting
 - 📚 **Language-specific package manager** integration (e.g. `pip`, `go.mod`, `npm`, etc.)
 - 🧱 **Latest Bazel version** pinned and working
-- 🐳 **Docker container** support using [`rules_img`](https://github.com/bazel-contrib/rules_img)
+- 🐳 **Docker container** support using [`rules_oci`](https://github.com/bazel-contrib/rules_oci)
 - 🧪 **Code generation tools** (e.g. [`copier`](https://copier.readthedocs.io), `scaffold`, `yeoman`) to help you and your team **stamp out new services or components quickly**
 
 ## Get Started
