@@ -2,9 +2,7 @@
 
 Welcome to **bazel-starters** — a collection of ready-to-go, language-specific starter repos for getting productive with [Bazel](https://bazel.build) fast.
 
----
-
-## 🤔 Why is Bazel so hard to get started with?
+## Why is Bazel so hard to get started with?
 
 Bazel is a powerful, fast, and scalable build system — but it's famously tricky to adopt. The learning curve comes from:
 
@@ -15,17 +13,7 @@ Bazel is a powerful, fast, and scalable build system — but it's famously trick
 
 We’ve been there. That’s why these starter repos exist.
 
----
-
-## 🚀 How to Use
-
-1. Pick the repo for your preferred language
-2. Click the big green **“Use this template”** button on the repo homepage
-3. Name your new repo and start coding — Bazel is ready to go!
-
----
-
-## 🧪 What's Included
+## What's Included
 
 Each starter repo includes:
 
@@ -38,9 +26,17 @@ Each starter repo includes:
 - 🐳 **Docker container** support using [`rules_oci`](https://github.com/bazel-contrib/rules_oci)
 - 🧪 **Code generation tools** (e.g. [`copier`](https://copier.readthedocs.io), `scaffold`, `yeoman`) to help you and your team **stamp out new services or components quickly**
 
----
+## Get Started
 
-## 🧪 Multi-language project?
+1. Pick the repo for your preferred language
+2. Click the big green **“Use this template”** button on the repo homepage
+3. Name your new repo and start coding — Bazel is ready to go!
+
+You can also choose a subset of the features and languages.
+Install the [scaffold](https://hay-kot.github.io/scaffold/) tool and run
+`scaffold new github.com/aspect-build/aspect-workflows-template` to launch an interactive wizard.
+
+## Multi-language project?
 
 If you need to build a full-stack monorepo with multiple languages, check out:
 
@@ -48,29 +44,16 @@ If you need to build a full-stack monorepo with multiple languages, check out:
 
 It includes everything wired together — perfect for full-featured Bazel exploration.
 
----
-
-## 📣 Contributing
+## Contributing
 
 We welcome contributions!
 
 The source-of-truth for these templates is https://github.com/aspect-build/aspect-workflows-template
-That repo has a GitHub Actions automation to run the Scaffold tool on a number of "presets", and each of these is simply pushed to the corresponding Git repo.
+That repo has a GitHub Actions automation to run the Scaffold tool on a number of [pre-defined "presets"](https://github.com/aspect-build/aspect-workflows-template/blob/c5d65f53dba2359ab2ec797e33a418cf1b946cc6/scaffold.yaml#L147-L191),
+and each of these is simply pushed to the corresponding Git repo on every commit to `main`.
 
 Please create your issues or PRs over there.
 
 ---
 
-Built with ❤️ by folks who wanted Bazel to just work.
-
-
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Built with ❤️ by folks at Aspect Build who want Bazel to Just Work™️.
